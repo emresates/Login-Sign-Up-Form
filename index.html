@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-Sign Up</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="background">
+    <div class="bgRight"></div>
+    <div class="bgLeft"></div>
+  </div>
+
+  <div class="slideBox">
+    <div class="layer">
+      <div class="leftSide">
+        <div class="content content-left">
+          <h2>Sign Up</h2>
+          <form method="post" onsubmit="return false;">
+
+            <div class="form-group">
+              <div class="form-group">
+                <input type="text" name="" required="" />
+                <label>Username</label>
+              </div>
+
+              <div class="form-group">
+                <input type="text" name="Email" required="" />
+                <label>Email</label>
+              </div>
+
+              <div class="form-group">
+                <input type="password" name="password" required="" />
+                <label>Password</label>
+              </div>
+            </div>
+
+            <button id="goRight" class="btn-left">Login</button>
+            <button class="btn-left">Sign Up</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="rightSide">
+        <div class="content content-right">
+          <h2>Login</h2>
+          <form method="post" onsubmit="return false;">
+
+            <div class="form-group">
+              <input type="text" name="Username" required="" />
+              <label>Username</label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" name="password" required="" />
+              <label>Password</label>
+            </div>
+
+            <button id="goLeft" class="btn-right">Sign Up</button>
+            <button class="btn-right">Login</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
